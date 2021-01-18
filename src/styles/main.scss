@@ -1,0 +1,85 @@
+@import 'header';
+@import 'about';
+@import 'fonts';
+@import 'persons';
+@import 'footer';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../assets/main__background.svg");
+  background-size: cover;
+}
+
+main {
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  align-items: center;
+  width: 209px;
+  height: 40px;
+  background: linear-gradient(180deg, #00FF57 0%, #00BD40 100%);
+  border-radius: 20px;
+  color: #171717;
+  outline: none;
+  border: none;
+}
+
+.share_items {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 6;
+
+  .share_icon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #505050;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+
+    svg {
+      fill: #BDBDBD;
+      transition: fill 0.5s ease;
+    }
+
+    &:hover {
+      background-color: #00FF57;
+
+      svg {
+        fill: #171717
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 942px;
+  }
+}
+
+@media (max-width: 375px) {
+  body.lock {
+    overflow: hidden;
+  }
+
+  .container {
+    width: 333px;
+  }
+}
