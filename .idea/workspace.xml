@@ -15,34 +15,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0c89123-968c-42f7-b416-0004a0886c90" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/RB.RU.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/MuseoSansCyrl-100.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/MuseoSansCyrl-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/MuseoSansCyrl-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/MuseoSansCyrl-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/MuseoSansCyrl-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/main__background.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/person-card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/share-items.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/persons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    <list default="true" id="a0c89123-968c-42f7-b416-0004a0886c90" name="Default Changelist" comment="Prod files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +33,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/prod" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mn81cZJEhSolzPh30zXud04EPu" />
@@ -101,8 +106,23 @@
       <updated>1610117780307</updated>
       <workItem from="1610117781381" duration="92306000" />
       <workItem from="1610499592974" duration="4483000" />
-      <workItem from="1610647771735" duration="69188000" />
+      <workItem from="1610647771735" duration="71183000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1610938024719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610938024719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Prod files">
+      <created>1611120943168</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611120943168</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Prod files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prod files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1610937607775">
@@ -132,10 +153,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="975" y="211" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610937643937" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610937910212">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611121075158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610937910212" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611121075158" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611121439294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611121439294" />
+    <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1611121383420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611121383420" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1610854619302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
