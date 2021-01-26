@@ -12,6 +12,8 @@
 body {
   background-image: url("../assets/main__background.svg");
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: revert;
   font-size: 16px;
 }
 
@@ -80,6 +82,9 @@ main {
   .container {
     max-width: 942px;
   }
+  //body {
+  //  background-size: contain;
+  //}
 }
 
 @media (max-width: 942px) {

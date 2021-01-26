@@ -27,8 +27,7 @@ const smListener = (screen) => {
     const obj = document.querySelectorAll('.person')
     if (screen.matches) {
         for (let i = 4; i < obj.length; i++) {
-            console.log(obj[i].parentNode)
-            obj[i].parentNode.hidden = 'true'
+            obj[i].parentNode.hidden = true
         }
 
     } else {
