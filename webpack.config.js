@@ -30,7 +30,7 @@ module.exports = {
     entry: ['@babel/polyfill','./index.js'],
     output: {
         filename: filename('js'),
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'build'),
         publicPath: ""
     },
 
@@ -43,7 +43,6 @@ module.exports = {
         port: 4200,
         hot: true
     },
-    devtool: isDev ? 'source-map' : '',
     optimization: optimization(),
     plugins: [
         new HTMLWebpackPlugin({

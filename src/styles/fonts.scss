@@ -1,3 +1,5 @@
+@import "variables";
+
 @font-face {
   font-family: 'MuseoSansCyrl-100';
   src: url('../assets/fonts/MuseoSansCyrl-100.woff');
@@ -32,88 +34,54 @@
   font-weight: normal;
   font-style: normal;
 }
-p,span,h1,h2,h3,h4,h5,h6 {
+
+p, span, h1, h2, h3, h4, h5, h6 {
   cursor: default;
 }
 
-.text400__regular {
-  font-family: MuseoSansCyrl-100, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
-  color: #BDBDBD;
+.h1 {
+  font-family: MuseoSansCyrl-700, sans-serif;
+  letter-spacing: 0.64px;
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #00FF57;
 }
 
-.text500__title {
+.h2 {
+  @extend .h1;
+  font-size: 36px;
+  line-height: 43.2px;
+  color: #F6F6F6;
+}
+
+.h3 {
   font-family: MuseoSansCyrl-500, sans-serif;
-  font-weight: normal;
+  letter-spacing: 0.288px;
   font-size: 28px;
   line-height: 33.6px;
   color: #BDBDBD;
 }
 
-.text700__person {
-  font-family: MuseoSansCyrl-700, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-}
-
-.text900__person_title {
-  font-family:MuseoSansCyrl-900, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 43.2px;
-  color: #F6F6F6;
-}
-
-.text500__person_title {
-  font-family:MuseoSansCyrl-500, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.h4 {
+  font-family: MuseoSansCyrl-100, sans-serif;
+  letter-spacing: 0.288px;
   font-size: 24px;
   line-height: 34.56px;
   color: #F6F6F6;
 }
 
-.text500__person {
+.h6 {
   font-family: MuseoSansCyrl-500, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 18px;
-}
-
-.text300__person {
-  font-family: MuseoSansCyrl-300, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
-}
-
-
-.text700__title {
-  font-family: MuseoSansCyrl-700, sans-serif;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 43.2px;
+  color: #e5e5e5;
 }
 
-.text700__number {
-  font-family: MuseoSansCyrl-700, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
-}
-
-.text400__main, a {
+.p1, a {
   font-family: MuseoSansCyrl-100, sans-serif;
-  font-weight: bold;
   font-size: 18px;
+  font-weight: bold;
   line-height: 21.6px;
   color: #BDBDBD;
   text-decoration: none;
@@ -122,3 +90,137 @@ p,span,h1,h2,h3,h4,h5,h6 {
     margin-top: 23px;
   }
 }
+
+.p2 {
+  font-family: MuseoSansCyrl-100, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.288px;
+  color: #BDBDBD;
+}
+
+.p3 {
+  @extend .p2;
+  font-family: MuseoSansCyrl-300, sans-serif;
+  font-weight: normal;
+  color: #e5e5e5;
+}
+
+.bigNum {
+  font-family: MuseoSansCyrl-700 , sans-serif;
+  color: #00FF57;
+  font-size: 7.5em;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-shadow: 3px 1px 0 #F6F6F6;
+}
+
+.mediumNum {
+  font-family: MuseoSansCyrl-700, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.smallNum {
+  @extend .mediumNum;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+@media (max-width: 1180px) {
+
+  .h1 {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  .h2 {
+    font-size: calc(36 * .75) + px;
+    line-height: calc(43.2 * .75) + px;
+    color: #F6F6F6;
+  }
+
+  .h3 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  .h4 {
+    font-size: calc(36 * .5) + px;
+    line-height: calc(43.2 * .5) + px;
+    color: #F6F6F6;
+  }
+
+
+  .p1, a {
+    font-size: 16px;
+    line-height: 19.2px;
+    &:not(:first-child) {
+      margin-top: 23px;
+    }
+  }
+
+  .mediumNum {
+    font-family: MuseoSansCyrl-700, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .smallNum {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 942px) {
+  .h1 {
+    font-size: 26px;
+    line-height: 31.2px;
+  }
+
+  .h2 {
+    font-size: calc(26 * .75) + px;
+    line-height: calc(31.2 * .75) + px;
+  }
+
+  .h3 {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+
+  .h4 {
+    font-size: calc(26 * .5) + px;
+    line-height: calc(31.2 * .5) + px;
+    color: #F6F6F6;
+  }
+
+  .p1, a {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+
+  .p2 {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+
+}
+
+@media (max-width: 704px) {
+  .h1 {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+
+
+  .bigNum {
+    font-size: 60px;
+  }
+}
+
+

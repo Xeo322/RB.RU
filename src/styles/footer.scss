@@ -36,3 +36,31 @@
   color: #505050;
 }
 
+@media (max-width: 1180px) {
+  .footer {
+    margin-top: 44px !important;
+  }
+
+  .footer__title {
+    margin-top: 53px;
+  }
+
+  .footer__text {
+    margin-top: 21px;
+  }
+  .footer__share {
+    margin-top: 34px;
+  }
+
+  .footer__copyright {
+    margin-top: 21px;
+  }
+}
+
+
+@media(max-width: 704px) {
+  .footer {
+    margin-top: 29px !important;
+  }
+}
+

@@ -12,6 +12,7 @@
 body {
   background-image: url("../assets/main__background.svg");
   background-size: cover;
+  font-size: 16px;
 }
 
 main {
@@ -20,14 +21,21 @@ main {
 
 .container {
   max-width: 1180px;
+
+  //TODO
+  //padding: 0 50px;
   margin: 0 auto;
 }
 
+.mobile {
+  display: none;
+}
+
 .button {
-  display: flex;
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
   cursor: pointer;
-  justify-content: space-around;
-  align-items: center;
   width: 209px;
   height: 40px;
   background: linear-gradient(180deg, #00FF57 0%, #00BD40 100%);
@@ -68,15 +76,34 @@ main {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1180px) {
   .container {
     max-width: 942px;
   }
 }
 
-@media (max-width: 375px) {
-  body.lock {
-    overflow: hidden;
+@media (max-width: 942px) {
+  .container {
+    max-width: 704px;
+  }
+
+  .share_items {
+    width: 180px;
+    margin: 0 auto;
+    .share_icon {
+      transform: scale(0.86);
+    }
+  }
+
+  .button {
+    width: 160px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 704px) {
+  .mobile {
+    display: block;
   }
 
   .container {
